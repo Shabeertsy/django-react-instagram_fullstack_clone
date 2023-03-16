@@ -1,0 +1,48 @@
+.status-area{
+width: 100%;
+height: 80px;
+margin-top: 50px;
+}
+.story{
+display: flex;
+overflow-x: scroll;
+
+}
+.each-story{
+    margin-right: 3%;
+}
+.story::-webkit-scrollbar{
+    display: none;
+}
+.story-image{
+    width: 68px;
+    height: 68px;
+    border:2px solid;
+    border-radius: 100%;
+
+}
+.story-add-icon{
+    margin-left: 50%;
+    margin-top: 36%;
+    font-size: 2rem;
+    color: #7d7575;
+}
+.close-icon-story{
+    color: rgb(201, 16, 16);
+    position: absolute;
+    right: 350px;
+    font-size: 2rem;
+    font-weight: 600;
+    top: 40px;
+    z-index: 1;
+}
+.story-border{
+    border:2px solid;
+    border-color:rgb(196, 187, 187);
+    border-radius: 100%;
+}
+.story-color{
+    border: 2px dotted;
+    border-color:rgb(226, 65, 92);
+
+}

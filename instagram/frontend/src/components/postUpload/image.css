@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-upload-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.image-upload-inner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-upload {
+    width: 800px;
+    height: 700px;
+    border-radius: 14px;
+    background-color: #fff;
+    padding: 30px;
+
+}
+
+.form-data-inp {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.upload-button {
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    background-color: rgb(27, 127, 203);
+}
+
+.close-icon {
+    color: rgb(201, 16, 16);
+    position: absolute;
+    right: -1030px;
+    font-size: 2rem;
+    font-weight: 600;
+    top: 40px;
+    z-index: 1;
+}

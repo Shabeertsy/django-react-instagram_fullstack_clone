@@ -1,0 +1,87 @@
+.login-box {
+    margin-top: 20%;
+    height: 400px;
+    width: 360px;
+}
+
+.login-box-bottom {
+    margin-top: 3%;
+    height: 70px;
+    width: 360px;
+}
+
+.insta-image {
+    width: 100px;
+}
+
+/* input fields styling */
+.inputs {
+    margin-top: 15%;
+    margin-left: 14%;
+}
+
+.inp {
+    border: 1px solid rgb(227, 221, 221);
+    width: 83%;
+    height: 35px;
+    font-weight: 300;
+    font-size:14px;
+    outline: none;
+
+    
+}
+.log-button{
+    width: 83%;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 8px;
+    height: 35px;
+}
+
+.or-text{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.or{
+    color: rgb(158, 144, 144);
+}
+
+.login-with{
+    display: flex;
+    justify-content: center;
+}
+
+.facebook{
+    text-decoration: none;
+    color: rgb(36, 36, 153);
+    font-weight: 500;
+}
+.forgotten-pass{
+    text-decoration: none;
+    margin-left: 30%;
+    font-size: small;
+}
+.signup{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(13, 110, 206);
+}
+.bottom-sign{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-insta-img{
+    width: 150px;
+}
+.insta-login-image{
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
